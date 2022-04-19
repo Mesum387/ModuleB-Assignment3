@@ -4,13 +4,16 @@ body{
 input{
   background: transparent;
   color: white;
-width: 200px;
+width: 60%;
+height: 50px;
 }
 ::placeholder{
+ text-align: center;
   color: white;
+  font-size: x-large;
 }
 .mynewdiv{
-  margin-top: 30%;
+  margin-top: 10%;
 text-align: center;
 }
 button{

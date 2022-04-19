@@ -20,7 +20,7 @@ return index!==id;
 setItems(updatedItems);
 }
 
-const removeAll=()=>{
+const deleAll=()=>{
 setItems([]);
 }
 
@@ -29,7 +29,7 @@ setItems([]);
     <div className="mynewdiv">
       <input value={inputData} placeholder="Enter Todo" onChange={(e)=>setinputData(e.target.value)} type="text"/>
      <br/> <button onClick={addItem}>Submit</button>
-      <button onClick={removeAll}>DeleteAll</button>
+      <button onClick={deleAll}>DeleteAll</button>
     </div>
     <div>
       <ol>
