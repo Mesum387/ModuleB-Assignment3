@@ -1,0 +1,60 @@
+body{
+  background-color: black;
+}
+input{
+  background: transparent;
+  color: white;
+width: 200px;
+}
+::placeholder{
+  color: white;
+}
+.mynewdiv{
+  margin-top: 30%;
+text-align: center;
+}
+button{
+  background-color:transparent;
+  margin-top: 30px;
+  border-width: 0px;
+  border-radius: 20px;
+  width: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  color: limegreen;
+}
+button:hover{
+  background-color:transparent;
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  color: limegreen;
+  cursor:pointer ;
+  margin-top: 30px;
+}
+button.dele{
+  background-color:transparent;
+  margin-top: 30px;
+  border-width: 0px;
+  border-radius: 20px;
+  width: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  color:red;
+}
+button.dele:hover{
+  background-color:transparent;
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  cursor:pointer ;
+  margin-top: 30px;
+}
+li{
+  color: white;
+}
